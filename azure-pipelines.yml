@@ -9,6 +9,7 @@ pool:
 steps:
 - task: CondaEnvironment@1
   inputs:
+    environmentName: 'build'
     packageSpecs: 'conda-build=3'
   displayName: 'Install pre-requisites'
 
